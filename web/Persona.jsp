@@ -9,7 +9,7 @@
 <body>
 <center>
     <% if(request.getParameter("consulta")==null){ %>
-<h1>Personas</h1>
+<h1>Agregar personas</h1>
 <div>${mensaje}</div>
 <form action="PersonaRegistro" method="post">
 Id<br>
